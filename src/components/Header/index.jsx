@@ -13,7 +13,7 @@ function Header(props) {
 
   return (
     <header>
-      <a href="/">
+      <a href="/" className="header-title">
         <h1>Taylor Guy</h1>
       </a>
       <Nav
