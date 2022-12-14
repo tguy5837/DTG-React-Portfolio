@@ -7,20 +7,20 @@ const Project = () => {
         <div className="work-link hero-project">
           <a
             href="https://github.com/MadelineRamos/Bohde-Marketplace"
-            target="_blank"
+            target="_blank" rel="noreferrer"
           >
             <div className="work-text">
-              <h4>Project 1</h4>
+              <h4>Bohde-Marketplace</h4>
               <p>Pro</p>
             </div>
-            <img src="./assets/images/Bohdes-Marketplace-Pic.png" alt="" />
+            <img src="../../public/Bohdes-Marketplace-Pic.png" alt="" />
           </a>
         </div>
 
         <div className="work-link">
-          <a href="https://annoyingdroid.github.io/FoodyTrack/" target="_blank">
+          <a href="https://annoyingdroid.github.io/FoodyTrack/" target="_blank" rel="noreferrer">
             <div className="work-text">
-              <h4>Project 2</h4>
+              <h4>FoodyTrack</h4>
               <p>Pro</p>
             </div>
             <img src="./assets/images/FoodyTrackPic.png" alt="" />
@@ -28,7 +28,7 @@ const Project = () => {
         </div>
 
         <div className="work-link">
-          <a href="https://tguy5837.github.io/run-buddy/" target="_blank">
+          <a href="https://tguy5837.github.io/run-buddy/" target="_blank" rel="noreferrer">
             <div className="work-text">
               <h4>Project 3</h4>
               <p>Pro</p>
@@ -38,7 +38,7 @@ const Project = () => {
         </div>
 
         <div className="work-link">
-          <a href="https://tguy5837.github.io/run-buddy/" target="_blank">
+          <a href="https://tguy5837.github.io/run-buddy/" target="_blank" rel="noreferrer">
             <div className="work-text">
               <h4>Project 4</h4>
               <p>Pro</p>
@@ -48,7 +48,7 @@ const Project = () => {
         </div>
 
         <div className="work-link">
-          <a href="https://tguy5837.github.io/run-buddy/" target="_blank">
+          <a href="https://tguy5837.github.io/run-buddy/" target="_blank" rel="noreferrer">
             <div className="work-text">
               <h4>Run Buddy</h4>
               <p>HTML/CSS</p>

@@ -8,22 +8,24 @@ function Header(props) {
     projectSelected,
     setProjectSelected,
     contactSelected,
-    setContactSelected
-} = props;
+    setContactSelected,
+  } = props;
 
   return (
     <header>
-      <a href="/" className="header-title">
-        <h1>Taylor Guy</h1>
-      </a>
-      <Nav
-        aboutSelected={aboutSelected}
-        setAboutSelected={setAboutSelected}
-        projectSelected={projectSelected}
-        setProjectSelected={setProjectSelected}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-      ></Nav>
+      <div className="d-flex justify-content-between">
+        <a href="/" className="header-title">
+          <h1>Taylor Guy</h1>
+        </a>
+        <Nav
+          aboutSelected={aboutSelected}
+          setAboutSelected={setAboutSelected}
+          projectSelected={projectSelected}
+          setProjectSelected={setProjectSelected}
+          contactSelected={contactSelected}
+          setContactSelected={setContactSelected}
+        ></Nav>
+      </div>
     </header>
   );
 }

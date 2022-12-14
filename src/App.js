@@ -3,6 +3,7 @@ import Header from './components/Header';
 import About from "./components/About";
 import Project from "./components/Project";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   // Set states for About, Projects, and Contact
@@ -25,6 +26,7 @@ function App() {
         {projectSelected ? <Project></Project> : ''}
         {contactSelected ? <Contact></Contact> : ''}
       </main>
+      <Footer />
     </div>
   );
 }
