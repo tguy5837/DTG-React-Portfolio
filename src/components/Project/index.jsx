@@ -13,7 +13,7 @@ const Project = () => {
               <h4>Bohde-Marketplace</h4>
               <p>Pro</p>
             </div>
-            <img src="../../public/Bohdes-Marketplace-Pic.png" alt="" />
+            <img src="../public/Bohdes-Marketplace-Pic.png" alt="" />
           </a>
         </div>
 
