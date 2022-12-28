@@ -1,15 +1,8 @@
-header {
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-footer {
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
 :root {
   --primary-color: rgb(69, 69, 69);
   --secondary-color: rgb(228, 228, 228);
   --tertiary-color: rgb(176, 213, 255);
+  --button-color: rgba(228, 228, 228, 0.7);
 }
 
 * {
@@ -19,7 +12,7 @@ footer {
 }
 
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: cursive;
   background-color: var(--primary-color);
   margin: 0;
   padding: 0;
@@ -30,7 +23,7 @@ header {
   margin: auto;
   padding: 55px 90px 250px;
   width: 100%;
-  background-image: url(../public/photo-big-screen.jpg);
+  background-image: url(./images/photo-big-screen.jpg);
   background-size: cover;
   text-align: center;
   border-bottom: 2px solid var(--secondary-color);
@@ -40,29 +33,14 @@ header {
   background-color: rgba(69, 69, 69, 0.5);
   margin: 40px;
   padding: 15px;
-  border-radius: 10px;
+  border-radius: 8px;
   overflow: hidden;
 }
 
-/* header image */
-header img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-}
-
-/* all header text */
-header a {
-  text-decoration: none;
-  font-size: 32px;
-  color: var(--secondary-color);
-  padding: 20px;
-}
-
 /* header title */
-header h1 a {
-  font-size: 75px;
+.header-title {
+  font-size: 100px;
+  color: var(--secondary-color);
 }
 
 /* header nav */
@@ -201,4 +179,41 @@ header nav ul li {
   text-decoration: none;
   font-size: 1rem;
   color: var(--secondary-color);
+}
+
+button {
+  display: inline-block;
+  border: none;
+  border-radius: 8px;
+  padding: 1rem 2rem;
+  margin: 0;
+  text-decoration: none;
+  background: var(--button-color);
+  color: var(--primary-color);
+  font-family: cursive;
+  font-size: 2rem;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+button:hover,
+button:focus {
+  background: #0053ba;
+}
+
+button:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+
+button:active {
+  transform: scale(0.99);
+}
+
+footer {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
 }

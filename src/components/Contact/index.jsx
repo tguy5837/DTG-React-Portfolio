@@ -7,15 +7,15 @@ const Contact = () => {
     <form id="contact-form">
       <div>
         <label htmlFor="name">Name:</label>
-        <input type="text" name="name" defaultValue='Name'/>
+        <input type="text" name="name" placeholder='Name'/>
       </div>
       <div>
         <label htmlFor="email">Email address:</label>
-        <input type="email" name="email" defaultValue='Email' />
+        <input type="email" name="email" placeholder='Email' />
       </div>
       <div>
         <label htmlFor="message">Message:</label>
-        <textarea name="message" rows="5" defaultValue='Message'/>
+        <textarea name="message" rows="5" placeholder='Message'/>
       </div>
       <button type="submit">Submit</button>
     </form>

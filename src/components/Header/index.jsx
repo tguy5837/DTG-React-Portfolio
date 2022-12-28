@@ -13,9 +13,9 @@ function Header(props) {
 
   return (
     <header>
-      <div className="d-flex justify-content-between">
+      <div className="header-box justify-content-between">
         <a href="/" className="header-title">
-          <h1>Taylor Guy</h1>
+          <h1 className="header-title">Taylor Guy</h1>
         </a>
         <Nav
           aboutSelected={aboutSelected}

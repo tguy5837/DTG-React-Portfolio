@@ -14,36 +14,38 @@ const Nav = (props) => {
     <nav>
         <ul>
             <li>
-                <span onClick={() => {
+                <button onClick={() => {
                     setAboutSelected(true);
                     setProjectSelected(false);
                     setContactSelected(false);
+                    document.getElementById('about-me').scrollIntoView();
                 }}>
                     About Me
-                </span>
+                </button>
             </li>
             <li>
-                <span onClick={() => {
+                <button onClick={() => {
                     setAboutSelected(false);
                     setProjectSelected(true);
                     setContactSelected(false);
+                    document.getElementById('projects').scrollIntoView();
                 }}>
                     Portfolio
-                </span>
+                </button>
             </li>
             <li>
-                <span onClick={() => {
+                <button onClick={() => {
                     setAboutSelected(false);
                     setProjectSelected(false);
                     setContactSelected(true);
                 }}>
                     Contact
-                </span>
+                </button>
             </li>
             <li>
-                <span>
+                <button>
                     Resume
-                </span>
+                </button>
             </li>
         </ul>
     </nav>
