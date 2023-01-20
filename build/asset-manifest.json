@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/tays-react-portfolio/static/css/main.3080977e.css",
-    "main.js": "/tays-react-portfolio/static/js/main.8630e48a.js",
+    "main.css": "/tays-react-portfolio/static/css/main.3e3679cd.css",
+    "main.js": "/tays-react-portfolio/static/js/main.981976bc.js",
     "static/js/787.e9c83860.chunk.js": "/tays-react-portfolio/static/js/787.e9c83860.chunk.js",
+    "static/media/FoodyTrackPic.png": "/tays-react-portfolio/static/media/FoodyTrackPic.54cdac131d7bb6ffc5d8.png",
+    "static/media/Bohdes-Marketplace-Pic.png": "/tays-react-portfolio/static/media/Bohdes-Marketplace-Pic.758bcd95c63ca2cd3145.png",
     "static/media/photo-big-screen.jpg": "/tays-react-portfolio/static/media/photo-big-screen.71c1c51738036c2a2500.jpg",
+    "static/media/project-3.jpg": "/tays-react-portfolio/static/media/project-3.8f41afc8825b3b31ca99.jpg",
+    "static/media/run-buddy.jpg": "/tays-react-portfolio/static/media/run-buddy.77e73a2431ba527807fc.jpg",
+    "static/media/project-4.jpg": "/tays-react-portfolio/static/media/project-4.f6a7063d17f18267d434.jpg",
     "index.html": "/tays-react-portfolio/index.html",
-    "main.3080977e.css.map": "/tays-react-portfolio/static/css/main.3080977e.css.map",
-    "main.8630e48a.js.map": "/tays-react-portfolio/static/js/main.8630e48a.js.map",
+    "main.3e3679cd.css.map": "/tays-react-portfolio/static/css/main.3e3679cd.css.map",
+    "main.981976bc.js.map": "/tays-react-portfolio/static/js/main.981976bc.js.map",
     "787.e9c83860.chunk.js.map": "/tays-react-portfolio/static/js/787.e9c83860.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3080977e.css",
-    "static/js/main.8630e48a.js"
+    "static/css/main.3e3679cd.css",
+    "static/js/main.981976bc.js"
   ]
 }
