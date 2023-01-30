@@ -2,12 +2,10 @@ import React from 'react'
 
 const Nav = (props) => {
     const {
-        aboutSelected,
         setAboutSelected,
-        projectSelected,
         setProjectSelected,
-        contactSelected,
-        setContactSelected
+        setContactSelected,
+        setResumeSelected
     } = props;
 
   return (
@@ -18,6 +16,7 @@ const Nav = (props) => {
                     setAboutSelected(true);
                     setProjectSelected(false);
                     setContactSelected(false);
+                    setResumeSelected(false);
                     document.getElementById('about-me').scrollIntoView();
                 }}>
                     About Me
@@ -28,6 +27,7 @@ const Nav = (props) => {
                     setAboutSelected(false);
                     setProjectSelected(true);
                     setContactSelected(false);
+                    setResumeSelected(false);
                     document.getElementById('projects').scrollIntoView();
                 }}>
                     Portfolio
@@ -38,12 +38,18 @@ const Nav = (props) => {
                     setAboutSelected(false);
                     setProjectSelected(false);
                     setContactSelected(true);
+                    setResumeSelected(false);
                 }}>
                     Contact
                 </button>
             </li>
             <li>
-                <button>
+                <button onClick={() => {
+                    setAboutSelected(false);
+                    setProjectSelected(false);
+                    setContactSelected(false);
+                    setResumeSelected(true);
+                }}>
                     Resume
                 </button>
             </li>

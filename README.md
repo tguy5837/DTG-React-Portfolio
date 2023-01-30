@@ -8,6 +8,12 @@ This page is intended to serve not only as a display of my best work but also a 
 
 This project was developed using React which improves the performance of the application as well as showcasing my ability to leverage new technologies that are gaining popularity in the industry.
 
+## Additional Tech Used
+
+HeroTofu was used for 'Contact Me' submissions.
+
+https://app.herotofu.com/
+
 ## Questions
 
 ### How to reach me:

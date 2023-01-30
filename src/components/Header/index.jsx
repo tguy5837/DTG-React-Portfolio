@@ -9,6 +9,8 @@ function Header(props) {
     setProjectSelected,
     contactSelected,
     setContactSelected,
+    resumeSelected,
+    setResumeSelected
   } = props;
 
   return (
@@ -24,6 +26,8 @@ function Header(props) {
           setProjectSelected={setProjectSelected}
           contactSelected={contactSelected}
           setContactSelected={setContactSelected}
+          resumeSelected={resumeSelected}
+          setResumeSelected={setResumeSelected}
         ></Nav>
       </div>
     </header>
