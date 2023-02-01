@@ -29,7 +29,9 @@ function App() {
         {aboutSelected ? <About></About> : ''}
         {projectSelected ? <Project></Project> : ''}
         {contactSelected ? <Contact></Contact> : ''}
-        {resumeSelected ? <Resume></Resume> : ''}
+        <div className="resume">
+          {resumeSelected ? <Resume ></Resume> : ''}
+        </div>
       </main>
       <Footer />
     </div>

@@ -16,7 +16,7 @@ function Header(props) {
   return (
     <header>
       <div className="header-box justify-content-between">
-        <a href="/" className="header-title">
+        <a href="/DTG-React-Portfolio" className="header-title">
           <h1 className="header-title">Taylor Guy</h1>
         </a>
         <Nav

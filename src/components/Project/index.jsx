@@ -2,8 +2,6 @@ import React from "react";
 
 import bhodesMarketPlace from "../../images/Bohdes-Marketplace-Pic.png"
 import foodyTrack from '../../images/FoodyTrackPic.png'
-import projectThree from '../../images/project-3.jpg'
-import projectFour from '../../images/project-4.jpg'
 import runBuddy from '../../images/run-buddy.jpg'
 
 const Project = () => {
@@ -30,26 +28,6 @@ const Project = () => {
               <p>Pro</p>
             </div>
             <img src={foodyTrack} alt="" />
-          </a>
-        </div>
-
-        <div className="work-link">
-          <a href="https://tguy5837.github.io/run-buddy/" target="_blank" rel="noreferrer">
-            <div className="work-text">
-              <h4>Project 3</h4>
-              <p>Pro</p>
-            </div>
-            <img src={projectThree} alt="" />
-          </a>
-        </div>
-
-        <div className="work-link">
-          <a href="https://tguy5837.github.io/run-buddy/" target="_blank" rel="noreferrer">
-            <div className="work-text">
-              <h4>Project 4</h4>
-              <p>Pro</p>
-            </div>
-            <img src={projectFour} alt="" />
           </a>
         </div>
 

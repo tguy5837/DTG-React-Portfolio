@@ -1,20 +1,10 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
 import React from "react";
 
-import resume from "../../resume/Resume.docx.pdf#toolbar=0"
+import resume from "../../resume/Resume.pdf";
 
 const Resume = () => {
-  return (
-    <div>
-      <h2>PDF Example with iframe</h2>
-      <embed
-        src={resume}
-        type="application/pdf"
-        width="100%"
-        height="500px"
-      ></embed>
-    </div>
-  );
+  return <iframe alt="DTG Resume" src={resume} width="100%"></iframe>;
 };
 
 export default Resume;
